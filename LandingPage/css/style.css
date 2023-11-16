@@ -1,0 +1,120 @@
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: sans-serif;
+    }
+    
+    .container {
+        width: 600px;
+        min-height: 100vh;
+        background-image: url(../images/back-image.png);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        position: relative;
+    }
+    
+    @media (min-width: 768px) {
+        .container {
+            width: 750px;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .container {
+            width: 970px;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        .container {
+            width: 1170px;
+        }
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 150px;
+    }
+    
+    nav ul li {
+        list-style: none;
+        padding: 5px;
+        display: inline-block;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    .login li {
+        display: inline-block;
+        list-style: none;
+        padding: 15px;
+    }
+    
+    .login .log {
+        color: #333;
+    }
+    
+    li a {
+        padding: 20px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .btn {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background: linear-gradient(45deg, rgb(255, 0, 221), rgb(212, 0, 255));
+        transition: 0.5s;
+    }
+    
+    .btn:hover {
+        border-top-right-radius: 30px;
+    }
+    
+    .container .content {
+        margin-top: 10%;
+        max-width: 600px;
+    }
+    
+    .content h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .content p {
+        margin-top: 0;
+        margin-bottom: 30px;
+        color: #333;
+    }
+    
+    .content a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 50px;
+        margin-top: 20px;
+    }
+    
+    .container .feature-img {
+        position: absolute;
+        width: 400px;
+        bottom: 0;
+        right: 5%;
+    }

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1abc9c;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content {
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.container .content .header {
+    background-color: #16a085;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.container .content .header h1 {
+    color: #fff;
+}
+
+.content .inputs {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.content .inputs .enter {
+    margin-top: 10px;
+    display: inline-flex;
+    width: 100%;
+    height: 40px;
+}
+
+.content .inputs .enter input {
+    width: calc(100% - 40px);
+    outline-color: #16a085;
+}
+
+.content .inputs .enter .icon {
+    background-color: #16a085;
+    width: 40px;
+    position: relative;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.content .inputs .enter .icon i {
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content .forgot a {
+    text-decoration: none;
+    color: #1abc9c;
+    padding-left: 15px;
+}
+
+.content .forgot a:hover {
+    text-decoration: underline;
+}
+
+.content .btn {
+    padding: 15px;
+}
+
+.content .btn input {
+    width: 100%;
+    height: 40px;
+    background-color: #16a085;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.content .text {
+    margin-left: 80px;
+}
+
+.content .text a {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.content .text a:hover {
+    text-decoration: underline;
+}
